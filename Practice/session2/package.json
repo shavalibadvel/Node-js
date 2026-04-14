@@ -1,5 +1,11 @@
 {
+  "name": "expressapp",
+  "scripts": {
+    "start": "node serverlaunch.js"
+    
+  },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
   }
 }
