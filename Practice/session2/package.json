@@ -1,7 +1,8 @@
 {
   "name": "expressapp",
+  
   "scripts": {
-    "start": "node serverlaunch.js"
+    "start": "nodemon index.js"
     
   },
   "dependencies": {
