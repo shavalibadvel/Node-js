@@ -28,7 +28,7 @@ app.get("/api/v1/users/getAllUsersData", (req, res) => {
 app.get("/api/v1/users/getUsersByGender",(req,res)=>{
     const query=req.query;
     const searchedGender=query?.gender;
-    const filteredData=usersData.data.filter((user)=>user.gender===searchedGender.toLowerCase());
+    const filteredData=usersData.data.filter((user)=>user.gender===searchedGender);
     const payload={
         success:true,
         message:"Users data with gender retrieved successfully",
