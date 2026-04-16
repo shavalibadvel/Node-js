@@ -1,4 +1,5 @@
 const usersData=require("../userData");
+
 function getUserByFirstNameHandler(req,res){
     const params=req.params;
     const firstName=params?.firstName
@@ -17,6 +18,10 @@ function getUserByFirstNameHandler(req,res){
     }
 }
 function getAllUsersDataHandler(req,res){
+   
+
+
+
     const users=usersData.data;
     const payload={
         success:true,
