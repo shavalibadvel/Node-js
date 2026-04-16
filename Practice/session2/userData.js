@@ -2,7 +2,11 @@ const usersData={
     data:[  //give me all genders for data
         {
             id:1,
-            name:"Shavali Badvel",
+            name:{
+                first:"Shavali",
+                middle:"V",
+                last:"Badvel"
+            },
             email:"shavali.badvel@example.com",
             gender:"male",
             address:{
@@ -21,7 +25,11 @@ const usersData={
         },
         {
             id:2,
-            name:"John Doe",
+            name:{
+                first:"John",
+                middle:"M",
+                last:"Doe"
+            },
             email:"john.doe@example.com",
             gender:"male",
             address:{
@@ -40,7 +48,11 @@ const usersData={
         },
         {
             id:3,
-            name:"Jane Smith",
+            name:{
+                first:"Jane",
+                middle:"V",
+                last:"Smith"
+            },
             email:"jane.smith@example.com",
             gender:"female",
             address:{
@@ -59,7 +71,11 @@ const usersData={
         },
         {
             id:4,
-            name:"Michael Johnson",
+            name:{
+                first:"Michael",
+                middle:"B",
+                last:"Johnson"
+            },
             email:"michael.johnson@example.com",
             gender:"male",
             address:{
@@ -78,7 +94,11 @@ const usersData={
         },
         {
             id:5,
-            name:"Emily Davis",
+            name:{
+                first:"Emily",
+                middle:"Jane",
+                last:"Davis"
+            },
             email:"emily.davis@example.com",
             gender:"female",
             address:{
@@ -97,7 +117,11 @@ const usersData={
         },
         {
             id:6,
-            name:"William Brown",
+            name:{
+                first:"William",
+                middle:"Brown",
+                last:"Smith"
+            },
             email:"william.brown@example.com",
             gender:"male",
             address:{
@@ -116,7 +140,11 @@ const usersData={
         },
         {
             id:7,
-            name:"Olivia Wilson",
+            name:{
+                first:"Olivia",
+                middle:"Jimmy",
+                last:"Wilson"
+            },
             email:"olivia.wilson@example.com",
             gender:"female",
             address:{
@@ -135,7 +163,11 @@ const usersData={
         },
         {
             id:8,
-            name:"James Taylor",
+            name:{
+                first:"James",
+                middle:"Taylor",
+                last:"Johnson"
+            },
             email:"james.taylor@example.com",
             gender:"male",
             address:{
@@ -154,7 +186,11 @@ const usersData={
         },
         {
             id:9,
-            name:"Sophia Anderson",
+            name:{
+                first:"Sophia",
+                middle:"Anderson",
+                last:"Vicks"
+            },
             email:"sophia.anderson@example.com",
             gender:"female",
             address:{
@@ -173,7 +209,11 @@ const usersData={
         },
         {
             id:10,
-            name:"Benjamin Thomas",
+            name:{
+                first:"Benjamin",
+                middle:"Thomas",
+                last:"Yogurt"
+            },
             email:"benjamin.thomas@example.com",
             gender:"male",
             address:{
