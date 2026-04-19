@@ -18,7 +18,7 @@ function getUserByFirstNameHandler(req,res){
     }
 }
 function getAllUsersDataHandler(req,res){
-    //password checks is moved to the middleware for security purpose
+    //password checks is moved to the middleware for security purpose sgiuhjgknihgjkgsnlihKJLGifnJGkjvGBKJn
     
     const users=usersData.data;
     const payload={
