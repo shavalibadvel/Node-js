@@ -1,3 +1,5 @@
+
+//user controller for the app
 const usersData=require("../userData");
 
 function getUserByFirstNameHandler(req,res){

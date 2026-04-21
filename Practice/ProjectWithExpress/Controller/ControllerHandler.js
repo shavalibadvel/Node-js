@@ -1,6 +1,8 @@
+//controller handler for the app
 function homeHandler(req, res) {
     res.status(200).send("Welcome to the Home Page");
 }
+
 function fitnessHandler(req, res) {
     const fitnessData = {
             name: "Shavali Badvel",
