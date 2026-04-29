@@ -1,7 +1,7 @@
 require("dotenv").config();
 const Server_Secrete_Password=process.env.Server_Secrete_Password;
 // We check password validation and if possible we can also check for the user role and permissions in this middleware for better security and access control of the app
-//ouigjigiugjkgeiugrijberg hghdfhm
+//ouigjigiugjkgeiugrijberg hghdfhmnmguisjkljjw9igyhfjbkeiur9uyghisdjic9fert798uf
 function passwordAuthMiddleware(req,res,next){
     const header=req.headers;
     const authorizationHeader=header?.authorization;
