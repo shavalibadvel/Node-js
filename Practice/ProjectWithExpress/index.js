@@ -1,9 +1,14 @@
-// import { fitnessHandler,homeHandler } from "./Controller/ControllerHandler.js";
+
 const express=require("express");
 const UserRouter=require("./Routers/UserRouter");
 const HomeRouter=require("./Routers/HomeRouter");
+const BlogRouter=require("./Routers/BlogsRouter");
 const { default: mongoose } = require("mongoose");
-const app=express();
+const Blog = require("./Model/blogModel");
+const User = require("./Model/UserModel");
+
+const app = express();
+
 const PORT=8069;
 const uri="mongodb://localhost:27017/" //server
 const dbName="Node-Crio" //database name
@@ -12,11 +17,11 @@ mongoose.connect(uri+dbName).then(()=>{
 }).catch((err)=>{
     console.error("Error connecting to MongoDB:", err);
 });
+app.use(express.json()); //middleware to parse json data from the request body
 
-// moved everything to the router for better code management and readability urikgnougrikjdsn
 app.use("/",HomeRouter);
 app.use("/api/v1/users/",UserRouter);
-
+app.use("/api/v1/blog/",BlogRouter);
 app.listen(PORT,()=>{
     console.log(`Server is listening on port ${PORT}`);
 });
