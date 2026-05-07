@@ -9,7 +9,7 @@ async function createBlog(req,res){
         author,
         nationality
     });
-    //save in db fhgjrhghbj
+    //save in db fhgjrhghbj vrngiusdgwidsu
     try{
         const response=await blogsModelObject.save();
         res.status(201).json(response)
