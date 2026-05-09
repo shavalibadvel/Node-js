@@ -1,5 +1,5 @@
 
-//user controller for the app
+//user controller for the app ghrjasj
 const usersData=require("../userData");
 
 function getUserByFirstNameHandler(req,res){
