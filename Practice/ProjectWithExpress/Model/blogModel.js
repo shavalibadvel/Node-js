@@ -23,7 +23,7 @@ const blogSchema = new mongoose.Schema({
 // 	type: Date,
 // 	default: Date.now
 //   }
-// ruighkknjrgije
+// ruighkknjrgije gmbth4ujkf n
 });
 
 const Blog = mongoose.model('Blog', blogSchema);
