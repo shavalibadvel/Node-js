@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema({
     //     type: Date,
     //     default: Date.now
     // }
-    //just some comments to check the git status and commit changes user model
+    //just some comments to check the git status and commit changes user model iuigj
 }, { timestamps: true });
 
 const User = mongoose.model('User', userSchema);
